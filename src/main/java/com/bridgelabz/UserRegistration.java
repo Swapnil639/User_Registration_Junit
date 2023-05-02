@@ -14,7 +14,7 @@ public class UserRegistration {
     }
 
     public boolean emailID(String emailID) {
-        return Pattern.matches("^[a-zA-Z\\d]{1,1}[a-zA-Z\\d+_.-]+@[a-zA-Z]+.[a-zA-z.]{2,}", emailID);
+        return Pattern.matches("^[a-zA-Z\\d]{1}[a-zA-Z\\d+_.-]+@[a-zA-Z]+.[a-zA-z.]{2,}", emailID);
     }
 
     public boolean phoneNumber(String phoneNumber) {
