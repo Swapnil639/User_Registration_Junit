@@ -14,7 +14,7 @@ public class UserRegistrationTest {
 
     @Test
     public void validateFirstNameTestForNegative() {
-        boolean actual2 = userRegistration.firstName("sahil123");
+        boolean actual2 = userRegistration.firstName("swapnil6");
         Assert.assertFalse(actual2);
     }
 
