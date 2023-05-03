@@ -23,6 +23,7 @@ public class UserRegistrationTest {
         } catch (InvalidInputException e) {
             e.printStackTrace();
         }
+      
     }
 
     @Test
